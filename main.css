@@ -1,0 +1,130 @@
+body {
+	font-family: "adelle", serif;
+	font-family: "adelle-sans", sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	background: #DDC;
+	color: #444;
+	margin: 0;
+	padding: .5em 0;
+	-webkit-text-size-adjust: none;
+}
+#page {
+	background: #FFF;
+	margin: 0 auto;
+	padding: 2em 1.5em;
+}
+
+h1, h2 {
+	font-family: "adelle", serif;
+	font-family: "abril-display", serif;
+	font-weight: 900;
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol { margin: 0; padding: 0; }
+
+a {
+	color: #900;
+	font-weight: 600;
+}
+
+ul { list-style: none; }
+ul small {
+	font-size: 1em;
+	color: #888;
+	white-space: nowrap;
+}
+ul li {
+	margin: .75em 0;
+}
+ul li blockquote {
+	margin-top: .75em;
+}
+
+p+p {
+	margin-top: .75em;
+}
+
+blockquote {
+	margin: 1.5em 1.5em 1.5em 3em;
+	font-family: "abril-text", serif;
+	font-style: italic;
+}
+blockquote:before {
+	content: '“';
+	float: left;
+	margin: .1em 0 0 -.75em;
+	font-family: "abril-display", serif;
+	font-weight: 900;
+	font-size: 3em;
+	line-height: 1;
+	color: #DDC;	
+}
+
+hr {
+	clear: both;
+	border: none;
+	border-top: 1px solid #DDC;
+	margin: 1.5em 0;	
+}
+
+header img {
+	float: right;
+	display: block;
+	width: 100px;
+	margin: -10px 0 20px 20px;
+	border-radius: 100px;
+}
+header h1 {
+	font-family: "abril-fatface", serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	line-height: 1;
+	color: #000;
+}
+
+section h3 {
+	color: #BBA;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1em;
+}
+section h4 {
+	font-weight: bold;
+	margin: 1.5em 0 0 0;
+}
+
+footer {
+	text-align: center;
+	padding: .75em 0;
+}
+
+.sep { margin: 0 .125em; color: #888; }
+
+@media (min-width:35em) {
+	body {
+		padding: 1.5em 0;
+	}
+	#page {
+		padding: 3em;
+		max-width: 35em;
+	}
+	header img {
+		width: 125px;
+	}
+	header h1 {
+		font-size: 3em;
+	}
+}
+
+@media (max-width:30em) {
+	header {
+		text-align: center;
+	}
+	header img {
+		float: none;
+		display: block;
+		margin: 0 auto 10px;
+	}
+}
