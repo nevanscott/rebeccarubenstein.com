@@ -73,8 +73,9 @@ header img {
 	float: right;
 	display: block;
 	width: 100px;
-	margin: -10px 0 20px 20px;
+	margin: -18px -8px 20px 20px;
 	border-radius: 100px;
+	border: 8px solid #D8E1DD;
 }
 header h1 {
 	font-family: "abril-fatface", serif;
