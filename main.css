@@ -136,11 +136,3 @@ footer {
     padding: 1em;
   }
 }
-
-@media (min-width: 50em) {
-  body {
-    font-size: 150%;
-    padding: 1.5em;
-  }
-}
-
